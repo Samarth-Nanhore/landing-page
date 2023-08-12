@@ -14,3 +14,35 @@ body {
 .content {
   flex: 1;
 }
+
+/* header container */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
