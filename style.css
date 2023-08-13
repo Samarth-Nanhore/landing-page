@@ -46,3 +46,39 @@ a {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.hero-header .img {
+  height: 174px;
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61677a;
+  color: #e5e7eb;
+}
+
+.header-container .hero-header {
+  background-color: #1f2937;
+}
+
+.hero-header .hero-title {
+  font-size: 48px;
+  font-weight: bolder0;
+  color: #f9faf8;
+}
+
+.hero-header .hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-header button {
+  background-color: #3882f6;
+  width: 134px;
+  height: auto;
+  font-size: 20px;
+  padding: 4px;
+  color: #f9faf8;
+  border-radius: 9px;
+  font-weight: 600;
+}
