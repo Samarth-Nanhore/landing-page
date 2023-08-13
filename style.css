@@ -4,6 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -49,9 +50,9 @@ a {
 
 /* hero-container */
 
-.hero-header .img {
-  height: 174px;
-  width: 415px;
+.hero-header .hero-header-img {
+  height: 210px;
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,11 +62,16 @@ a {
 
 .header-container .hero-header {
   background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  padding: 80px;
 }
 
 .hero-header .hero-title {
   font-size: 48px;
-  font-weight: bolder0;
+  font-weight: bolder;
   color: #f9faf8;
 }
 
@@ -76,11 +82,20 @@ a {
 
 .hero-header button {
   background-color: #3882f6;
-  width: 134px;
+  width: 125px;
   height: auto;
   font-size: 20px;
   padding: 4px;
   color: #f9faf8;
   border-radius: 9px;
   font-weight: 600;
+  border-color: #3882f6;
+}
+
+.hero-header .hero-header-content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
 }
