@@ -99,3 +99,41 @@ a {
   gap: 15px;
   padding: 15px;
 }
+
+/* information container */
+
+.information-container {
+  margin-bottom: 55px;
+}
+
+.information-container .title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.img {
+  border: 3px solid #3882f6;
+  height: 130px;
+  width: 145px;
+  border-radius: 12px;
+}
+
+.text {
+  color: #61677a;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  gap: 57px;
+  padding: 20px;
+}
+
+.img-container .item {
+  text-align: center;
+  flex-basis: 145px;
+}
