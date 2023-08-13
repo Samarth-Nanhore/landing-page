@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
 }
 
 body {
@@ -131,9 +134,35 @@ a {
   justify-content: center;
   gap: 57px;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .img-container .item {
   text-align: center;
   flex-basis: 145px;
+}
+
+/* quote-container */
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.quote-container .quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 822px;
+  font-weight: lighter;
+}
+
+.quote-container .author-name {
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 480px;
 }
